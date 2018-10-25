@@ -80,17 +80,21 @@ p::first-letter
 <div class="section1">
   <p><a href="http://cms3.perl-user.com">cms3.perl-user.com</a> is where my test
 site for cms3.pm is at now.   I should have been testing on a secure (read: paid for
-domain not a free domain from the start)  With free domains, you get what you pay for.
+domain, not a free domain) from the start.  With free domains, you get what you pay for.
 The version I committed on the 15th has working logins (/api/login) and sessions.
 /api/show_my_cookies shows the useruuid and sessionuuid cookies that have been set.
 /api/delete_my_cookies removes them or /api/logout clears the session cookie.  Not sure
 at this point that the useruuid really serves any great utility.  I set the name as a
 global variable named $whoami when cms3 checks the session (each page load).
-    
+<br>    
 Todo: more structure for multi-user support, lots of testing, other todo's as noted
 on cms3.perl-user.com and maybe perl-user.com (runs older Lynk2.pm for handler)  I may
 move the pages for perl-user.com over and deep six Lynk2.pm soon...   After next commit
 perhaps =)
+<br>
+I've also added cf.perl-user.com with a CSS grid layout.   Not responsive, gotta figure
+that out.   Means Bootstrap is still superior although, the page on cf loads for me in
+about 100ms most times...
 </div></div><br>     
      
 <div class="page">
