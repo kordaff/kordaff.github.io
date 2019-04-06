@@ -76,9 +76,9 @@ p::first-letter
    <div class="col-sm-10" "col-lg-10">
 
 <div class="page">
-<h3><span class="header">25 Oct 2018</span></h3>
+<h3><span class="header">6 Apr 2019</span></h3>
 <div class="section1">
-  <p><a href="http://cms3.perl-user.com">cms3.perl-user.com</a> is where my test
+  <p><a href="http://perl-user.com">perl-user.com</a> is where my active
 site for cms3.pm is at now.   I should have been testing on a secure (read: paid for
 domain, not a free domain) from the start.  With free domains, you get what you pay for.
 The version I committed on the 15th has working logins (/api/login) and sessions.
@@ -86,36 +86,11 @@ The version I committed on the 15th has working logins (/api/login) and sessions
 /api/delete_my_cookies removes them or /api/logout clears the session cookie.  Not sure
 at this point that the useruuid really serves any great utility.  I set the name as a
 global variable named $whoami when cms3 checks the session (each page load).
-<br>    
-Todo: more structure for multi-user support, lots of testing, other todo's as noted
-on cms3.perl-user.com and maybe perl-user.com (runs older Lynk2.pm for handler)  I may
-move the pages for perl-user.com over and deep six Lynk2.pm soon...   After next commit
-perhaps =)
 <br>
-I've also added cf.perl-user.com with a CSS grid layout.   Not responsive, gotta figure
-that out.   Means Bootstrap is still superior although, the page on cf loads for me in
-about 100ms most times...
+    Went back to jquery/bootstrap on cf.perl-user.com
 </div></div><br>     
      
-<div class="page">
-<h3><span class="header">26 Sep 2018</span></h3>
-<div class="section1">
-  <p><a href="http://userconfig.cf">userconfig.cf</a> now has the most current 
-version of my mod_perl2 response handler.  I'm still working on the version I have 
-to get user logins and session handling complete.  
-On github, <a href="http://github.com/kordaff/cms3">cms3</a> is a slightly older
-version that doesn't have /api/login /api/logout /api/show_my_cookies or 
-/api/delete_my_cookies coded yet.   My working copy on userconfig.cf has also
-undergone a complete refresh to make perlcritic -brutal complain as little as possible.
-</div></div><br>
-     
-<div class="page">
-<h3><span class="header">3 Jul 2018</span></h3>
-<div class="section1">
-<p>I've been modifying a mod_perl2 response handler I wrote to serve multiple domains
-  and pages from a single set of PostgreSQL tables.   The main domain is <a href="http://perl-user.com">perl-user.com</a>
-<p>Note: this particular page is redirected and served from kordaff.github.io
-</div></div><br>
+
      
 <div class="page">
 <h3><span class="header">3 Jun 2017</span></h3>
